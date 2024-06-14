@@ -1,0 +1,43 @@
+
+
+/* kullanıcının tahminini yazddığı yer */
+#ştahmin{
+    position: absolute;
+    height: 25px;
+    width: 300px;
+    top: 230px;
+    left:500px;
+}
+/* tahmini göndermek ve tahmin edilecek şehri görmek için bu button var  */
+#btnnn{
+    position: absolute;
+    height: 30px;
+    width: 80px;
+    top: 230px;
+    left: 830px;
+  
+
+}
+
+/* ip ucu yazısı */
+#şehirhakkında{
+    position: absolute;
+    top: 30px;
+    left: 570px;
+    
+}
+
+/* ip ucu sonucu doğru şehiri gösteren yer */
+#şehirigör{
+    position: absolute;
+    top: 120px;
+    left: 570px;
+}
+
+/* doğru yanlış yazan yer */
+#dy{
+    position: absolute;
+    top: 120px;
+    left: 690px;
+
+}

@@ -40,8 +40,14 @@ function randomşehir(){
 
     if(dogruşehir==thmn){
         console.log("doğru")
+        document.getElementById("dy").innerHTML="✓"
     }else{
         console.log("yanlış")
+         document.getElementById("dy").innerHTML="✘"
 
     }
+    
+
+    
 }
+

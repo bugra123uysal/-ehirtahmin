@@ -7,16 +7,19 @@
     <title>Document</title>
 </head>
 <body>
-<!-- şehiri tahmin etme yeri -->
+
  <input type="text" placeholder="tahminini yaz" id="ştahmin">
     
-    
-    <button onclick="randomşehir()">şehir ver</button>
-<!-- şehirle alakalı bilgi  -->
+    <!-- tahmini göndermek ve tahmin edilecek şehri görmek için bu button var -->
+    <button onclick="randomşehir()" id="btnnn">şehir ver</button>
+<!--ip ucu yazısı -->
  <p id="şehirhakkında"></p>
 
-    <!-- bilinmesi gereken şehri gösteri -->
+    <!-- ip ucu sonucu doğru şehiri gösteren yer -->
     <p id="şehirigör"></p>
+
+    <!-- doğru yanlış yazan yer -->
+     <p id="dy"></p>
 
     <script src="şehirthm.js" ></script>
     
